@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node server.js && next dev",
+    "dev": "next dev",
     "build": "next build",
-    "start": "node server.js & next start",
+    "start": "next start",
     "lint": "next lint"
   },
-  "proxy": "http://localhost:8888",
   "dependencies": {
     "axios": "^0.21.4",
     "dotenv": "^10.0.0",
@@ -16,10 +15,7 @@
     "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "swr": "^1.0.1",
-    "cookie-parser": "^1.4.5",
-    "cors": "^2.8.5",
-    "query-string": "^7.0.1"
+    "swr": "^1.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.4",

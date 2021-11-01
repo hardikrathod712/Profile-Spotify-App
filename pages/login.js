@@ -8,7 +8,7 @@ export default function Login() {
         <>
             <div className={styles.app}>
                 <h1 className="mb-6 text-4xl md:text-5xl font-black antialiased ...">Spotify Profile</h1>
-                <Link href={LOGIN_URL}>
+                <Link href={LOGIN_URL} passHref>
                     <a className={styles.loginbutton}>LOG IN TO SPOTIFY</a>
                 </Link>
                 <div className={styles.footer}>
