@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node server && next start",
     "lint": "next lint"
   },
   "proxy": "http://localhost:8888",
