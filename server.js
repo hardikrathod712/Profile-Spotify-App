@@ -1,4 +1,4 @@
-require('dotenv').config();
+// require('dotenv').config();
 
 const PORT = 8888;
 const CLIENT_ID = process.env.NEXT_PUBLIC_CLIENT_ID;
