@@ -1,0 +1,117 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background-image: linear-gradient(to bottom, rgb(29, 215, 94, 1) 0%, rgb(50, 222, 132, 0.4) 50%, rgb(24, 24, 24) 1%);
+}
+
+.playlists {
+    margin: 30px 0px;
+    padding: 0px 150px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 40px 25px;
+}
+
+.playlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 320px;
+    background-color: #282828;
+    padding: 20px 30px;
+    border-radius: 5px;
+    transition: background-color .3s ease;
+    background-image: linear-gradient(to top, #404040 30%, #282828 1%);
+}
+
+/* .playlist:hover {
+    background-image: linear-gradient(to top, white 30%, #282828 1%);
+    color: #282828;
+    background-color: #404040;
+} */
+
+.cover {
+    height: 190px;
+    width: 190px;
+    /* border-radius: 50%; */
+    box-shadow: 0px 0px 20px 2px rgb(0, 0, 0, 75%);
+}
+
+.cover img {
+    height: 190px;
+    width: 190px;
+}
+
+.playlistMeta {
+    /* background-color: #1ed760; */
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    margin-bottom: 3px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.name a:hover {
+    border-bottom: 1px solid white;
+}
+
+.tracks {
+    color: #9B9B9B;
+}
+
+@media only screen and (max-width:768px) {
+    .header {
+        font-size: 40px;
+        padding: 30px 0;
+        flex-direction: column;
+        background-image: linear-gradient(to bottom, #1ed760, rgba(50, 222, 132, 0.702), rgb(24, 24, 24, 0.1));
+    }
+    .playlists {
+        margin-top: 20px;
+        padding: 0px 50px;
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 25px 20px;
+    }
+    .playlist {
+        padding: 10px;
+        width: 230px;
+        height: 300px;
+        justify-content: none;
+        background-color: #1ed760;
+    }
+    .cover {
+        margin-top: 10px;
+        height: 170px;
+        width: 170px;
+        border-radius: 50%;
+    }
+    .cover img {
+        height: 170px;
+        width: 170px;
+        border-radius: 50%;
+    }
+    .playlistMeta {
+        margin-top: 30px;
+    }
+    .name {
+        margin: 0;
+    }
+}
