@@ -22,7 +22,7 @@ const Track = ({track}) => {
                                 {/* <span className={styles.trackName}>
                                     {track.name}
                                 </span> */}
-                                <a className={styles.trackName}><span>{track.name}</span></a>
+                                <a className={styles.trackName} title={track.name}><span>{track.name}</span></a>
                                 <div className={styles.trackAlbum}>
                                     {
                                         track.artists.map((artist, i) => (
