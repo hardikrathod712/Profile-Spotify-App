@@ -89,32 +89,40 @@
     }
     .playlists {
         margin-top: 20px;
-        padding: 0px 50px;
-        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        padding: 0px 30px;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
         gap: 25px 20px;
     }
     .playlist {
-        padding: 10px;
-        width: 230px;
-        height: 300px;
-        justify-content: none;
-        background-color: #1ed760;
+        width: 180px;
+        height: 240px;
+        justify-content: center;
+        align-items: center;
+        /* background-color: #1ed760; */
+    }
+    .top {
+        height: 180px;
+        width: 180px;
     }
     .cover {
         margin-top: 10px;
-        height: 170px;
-        width: 170px;
+        height: 140px;
+        width: 140px;
         border-radius: 50%;
     }
     .cover img {
-        height: 170px;
-        width: 170px;
+        height: 140px;
+        width: 140px;
         border-radius: 50%;
     }
     .playlistMeta {
-        margin-top: 30px;
+        height: 60px;
     }
     .name {
-        margin: 0;
+        width: 150px;
+        font-size: 14px;
+    }
+    .tracks {
+        font-size: 12px;
     }
 }
