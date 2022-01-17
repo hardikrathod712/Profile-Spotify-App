@@ -1,8 +1,8 @@
 require('dotenv').config();
-const CLIENT_ID = process.env.CLIENT_ID;
-const CLIENT_SECRET = process.env.CLIENT_SECRET;
-const REDIRECT_URL = process.env.REDIRECT_URL;
-const FRONTEND_URL = process.env.FRONTEND_URL;
+const CLIENT_ID = process.env.NEXT_PUBLIC_CLIENT_ID;
+const CLIENT_SECRET = process.env.NEXT_PUBLIC_CLIENT_SECRET;
+const REDIRECT_URL = process.env.NEXT_PUBLIC_REDIRECT_URL;
+const FRONTEND_URL = process.env.NEXT_PUBLIC_FRONTEND_URL;
 const stateKey = 'SPOTIFY-AUTH-STATE';
 const axios = require('axios').default;
 const querystring = require('query-string');

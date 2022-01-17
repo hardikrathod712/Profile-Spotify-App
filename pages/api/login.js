@@ -1,6 +1,6 @@
 require('dotenv').config();
-const CLIENT_ID = process.env.CLIENT_ID;
-const REDIRECT_URL = process.env.REDIRECT_URL;
+const CLIENT_ID = process.env.NEXT_PUBLIC_CLIENT_ID;
+const REDIRECT_URL = process.env.NEXT_PUBLIC_REDIRECT_URL;
 const stateKey = 'SPOTIFY-AUTH-STATE';
 const querystring = require('query-string');
 import cookie from "cookie";
