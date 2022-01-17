@@ -43,7 +43,7 @@ const getHashParams = () => {
 }
 
 const refreshAccessToken = async () => {
-    const refresh_token = await axios(`http://localhost:8888/refresh_token?refresh_token=${getLocalRefreshToken()}`)
+    const refresh_token = await axios(`http://localhost:3000/api/refreshToken?refresh_token=${getLocalRefreshToken()}`)
         .then(response => {
             const access_token = response.data.access_token;
             setLocalAccessToken(access_token);
