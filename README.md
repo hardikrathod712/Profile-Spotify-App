@@ -13,6 +13,23 @@ Feature to see your
   - Recently Played tracks
   - Playlists
  
-Screenshots
-- Profile Page
+## Screenshots
+- **Profile Page**
+
+  ![alt text](https://github.com/hardikrathod712/Profile-Spotify-App/blob/main/screenshots/profile-page.png?raw=true)
   
+- **Top Artists Page**
+
+  ![alt text](https://github.com/hardikrathod712/Profile-Spotify-App/blob/main/screenshots/top-artists.png?raw=true)
+  
+- **Top Tracks Page**
+
+  ![alt text](https://github.com/hardikrathod712/Profile-Spotify-App/blob/main/screenshots/top-tracks.png?raw=true)
+  
+- **Recently Played Page**
+
+  ![alt text](https://github.com/hardikrathod712/Profile-Spotify-App/blob/main/screenshots/recently-playes.png?raw=true)
+  
+- **Playlist**
+
+  ![alt text](https://github.com/hardikrathod712/Profile-Spotify-App/blob/main/screenshots/playlists.png?raw=true)
