@@ -29,7 +29,7 @@ export default function TopArtistAllTime() {
             <div className={styles.topArtists}>
                 <div className={styles.topArtistsHead}>
                     <h3 className="text-xl font-black">Top Artists of all time</h3>
-                    <Link href="/topartists" passHref>
+                    <Link href="artists/topartists" passHref>
                         <a className={styles.seemore}>See More</a>
                     </Link>
                 </div>
